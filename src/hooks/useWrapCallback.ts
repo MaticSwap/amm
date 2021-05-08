@@ -37,7 +37,7 @@ export default function useWrapCallback(
 
     const sufficientBalance = inputAmount && balance && !balance.lessThan(inputAmount)
 
-    showBushWarning.current = (inputCurrency.symbol === "CFT")
+    showBushWarning.current = (inputCurrency.symbol === "SWAP")
 
     if (inputCurrency === ETHER && currencyEquals(WETH[chainId], outputCurrency)) {
       return {

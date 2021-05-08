@@ -238,7 +238,7 @@ const Swap = () => {
         checkForSyrup(inputCurrency.symbol.toLowerCase(), 'Selling')
       }
 
-      showBushWarning.current = (inputCurrency.symbol === "CFT")
+      showBushWarning.current = (inputCurrency.symbol === "SWAP")
     },
     [onCurrencySelection, setApprovalSubmitted, checkForSyrup, showBushWarning]
   )
@@ -276,8 +276,8 @@ const Swap = () => {
       <CardNav />
       {showBushWarning.current === true ? (
         <TextWarning>
-          Thing about selling some $CFT? <br/> Did you already visit the <ActionLink
-          href="https://cfutureswap.io/bush"
+          Thing about selling some $SWAP? <br/> Did you already visit the <ActionLink
+          href="https://maticswap.io/bush"
           target="_blank"
         >Bush</ActionLink>?
         </TextWarning>

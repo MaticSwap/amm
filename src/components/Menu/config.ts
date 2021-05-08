@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://cfutureswap.io',
+    href: 'https://maticswap.io',
   },
   {
     label: 'Trade',
@@ -24,22 +24,22 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://cfutureswap.io/#/farms',
+    href: 'https://maticswap.io/#/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://cfutureswap.io/#/pools',
+    href: 'https://maticswap.io/#/pools',
   },
   {
     label: 'Bush',
     icon: 'BushIcon',
-    href: 'https://cfutureswap.io/#/bush',
+    href: 'https://maticswap.io/#/bush',
   },
   // {
   //   label: 'Certik Audit (In-Progress)',
   //   icon: 'ShieldIcon', // ShieldIcon
-  //   href: 'https://twitter.com/CFuture/status/1367218225310818308',
+  //   href: 'https://twitter.com/maticswap/status/1367218225310818308',
   //   target: '_blank',
   // },
   // {
@@ -68,26 +68,26 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Token',
-        href: 'https://doc.cfutureswap.io/tokennomics/cfuture-token',
+        href: 'https://doc.maticswap.io/tokennomics/maticswap-token',
         target: '_blank',
       },
       {
         label: 'Contracts',
-        href: 'https://doc.cfutureswap.io/security/contracts',
+        href: 'https://doc.maticswap.io/security/contracts',
         target: '_blank',
       },
       {
         label: 'Transparency',
-        href: 'https://doc.cfutureswap.io/transparency/transparency',
+        href: 'https://doc.maticswap.io/transparency/transparency',
         target: '_blank',
       },
       // {
       //   label: 'CoinGecko',
-      //   href: 'https://www.coingecko.com/en/coins/cfuturetoken',
+      //   href: 'https://www.coingecko.com/en/coins/maticswaptoken',
       // },
       // {
       //   label: 'CoinMarketCap',
-      //   href: 'https://coinmarketcap.com/currencies/cfuturetoken/',
+      //   href: 'https://coinmarketcap.com/currencies/maticswaptoken/',
       // },
     ],
   },
@@ -106,27 +106,27 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/cfuture-binance',
+        href: 'https://github.com/maticswap-binance',
         target: '_blank',
       },
       {
         label: 'Docs',
-        href: 'https://doc.cfutureswap.io/',
+        href: 'https://doc.maticswap.io/',
         target: '_blank',
       },
       {
         label: 'Blog',
-        href: 'https://cfuture.medium.com/',
+        href: 'https://maticswap.medium.com/',
         target: '_blank',
       },
       {
         label: 'Announcements',
-        href: 'https://t.me/cfuture',
+        href: 'https://t.me/maticswap',
         target: '_blank',
       },
       {
         label: 'Telegram',
-        href: 'https://t.me/cfuturefinancechat',
+        href: 'https://t.me/maticswapfinancechat',
         target: '_blank',
       },
     ],

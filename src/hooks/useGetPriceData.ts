@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import BigNumber from 'bignumber.js'
 import { useMulticallContract } from './useContract'
 import ERC20_INTERFACE from '../constants/abis/erc20'
-import priceContracts from '../constants/cfuturePriceContracts'
+import priceContracts from '../constants/maticswapPriceContracts'
 
 type ApiResponse = {
   prices: {

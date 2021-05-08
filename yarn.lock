@@ -2122,9 +2122,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@cfuture-binance/uikit":
+"@pancakeswap-libs/uikit@maticswap-polygon/uikit":
   version "0.13.1"
-  resolved "https://codeload.github.com/cfuture-binance/uikit/tar.gz/2202e9ac895e4517d499ef922863a5f4393e2635"
+  resolved "https://codeload.github.com/maticswap-binance/uikit/tar.gz/2202e9ac895e4517d499ef922863a5f4393e2635"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
